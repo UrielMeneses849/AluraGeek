@@ -1,0 +1,93 @@
+.Hero{
+    background-image: url("../Images/Hero.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin: 50px auto;
+}
+
+.texto-Hero{
+    padding: 50px;
+    margin-left: 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    color: #fff;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+h3{
+    color:#FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.boton-Hero{
+cursor: pointer;
+width: 213px;
+height: 57px;
+padding: 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 12px;
+background: #F2BE22;
+border: none;
+color:#FFF;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+@media screen and (max-width: 600px) {
+    .Hero{
+        background-size: contain;
+        background-image: url("../Images/Img1.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 400px;
+        margin: 50px auto 0;
+    }
+    .texto-Hero{
+        padding: 15px;
+        margin-left: 0;
+        width: 93%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        
+    }
+
+    
+h1{
+    color: #121212;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+h3{
+    color: #0b0b0c;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 50px;
+}
+}

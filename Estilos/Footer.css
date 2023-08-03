@@ -1,0 +1,64 @@
+footer{
+width: 95%;
+background-color: #FBEEAC;
+display: flex;
+justify-content: space-around;
+padding: 40px;
+margin: 0 auto;
+border-radius: 12px;
+}
+
+p{
+    cursor: pointer;
+}
+.textosF{
+    display: flex;
+    flex-direction: column;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+#Nombre{
+height: 30px;
+
+padding: 10px;
+margin: 20px;
+border-radius: 10px;
+}
+
+#Mensaje{
+height: 50px;
+padding: 10px;
+margin: 20px;
+border-radius: 10px;
+resize: none;
+}
+
+.Registro{
+        width: 182px;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 12px;
+        background-color: #F2BE22;
+        color: #fafafa;
+        border: none;
+        margin: 2px 0 0 20px;
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        cursor: pointer;
+        transition: 0.5s;
+}
+
+@media screen and (max-width: 600px){
+    footer{
+        flex-direction: column;
+        width: 78%;
+    }
+}
