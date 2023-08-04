@@ -54,6 +54,7 @@ resize: none;
         line-height: normal;
         cursor: pointer;
         transition: 0.5s;
+        font-family: 'Poppins', sans-serif;
 }
 
 @media screen and (max-width: 600px){

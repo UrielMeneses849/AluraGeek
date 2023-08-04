@@ -1,0 +1,52 @@
+{
+    "producto": [
+      {
+        "id": "1",
+        "url": "./Images/SW1.png",
+        "categoria": "",
+        "nombre": "Producto",
+        "precio": "$123.12",
+        "descripcion": ""
+      },
+      {
+        "id": "2",
+        "url": "./Images/SW2.png",
+        "categoria": "",
+        "nombre": "Lego",
+        "precio": "$123.12",
+        "descripcion": ""
+      },
+      {
+        "id": "3",
+        "url": "./Images/SW3.png",
+        "categoria": "",
+        "nombre": "Startrooper",
+        "precio": "$123.12",
+        "descripcion": ""
+      },
+      {
+        "id": "4",
+        "url": "./Images/SW4.png",
+        "categoria": "",
+        "nombre": "Baby Yoda",
+        "precio": "$123.12",
+        "descripcion": ""
+      },
+      {
+        "id": "4",
+        "url": "./Images/SW5.png",
+        "categoria": "",
+        "nombre": "Usuario",
+        "precio": "$123.12",
+        "descripcion": ""
+      },
+      {
+        "id": "5",
+        "url": "./Images/SW6.png",
+        "categoria": "",
+        "nombre": "Yoda",
+        "precio": "$123.12",
+        "descripcion": ""
+      }
+]
+}

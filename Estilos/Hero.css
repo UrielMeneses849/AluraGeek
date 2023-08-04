@@ -50,7 +50,9 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-
+.Imagen{
+    border-radius: 12px;
+}
 @media screen and (max-width: 600px) {
     .Hero{
         background-size: contain;

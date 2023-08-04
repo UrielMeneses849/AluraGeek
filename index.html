@@ -24,7 +24,7 @@
     <nav>
         <img src="./Images/Logo.svg" alt="Logo" class="Logo">
         <input type="text" name="search" class="Buscar" placeholder="¿Que deseas buscar?"> 
-        <button class="Login">Login</button>
+        <a href="Login.html"><button class="Login" >Login</button></a>
     </nav>
 </header>
 <body>
@@ -45,73 +45,9 @@
             <div class="Encabezado"><b> Star Wars </b> <span>ver más <i class="uil uil-arrow-right"></i></span></h2></div>
 
     <!-- Contenedor de las card -->
-    <div class="containerCard">
+    <div class="containerCard" data-product>
 
-        <div class="Card">
 
-        <img src="./Images//SW1.png" alt="" class="Imagen">
-        <div class="textoCard">
-        <h4> Producto xyz</h4>
-        <h5>$60.00</h5>
-        <h6>Ver producto</h6>
-        </div>
-
-        </div>
-
-        <div class="Card">
-            
-        <img src="./Images//SW2.png" alt="" class="Imagen">
-        <div class="textoCard">
-        <h4> Producto xyz</h4>
-        <h5>$60.00</h5>
-        <h6>Ver producto</h6>
-        </div>
-        
-        </div>
-
-        <div class="Card">
-            
-        <img src="./Images//SW3.png" alt="" class="Imagen">
-        <div class="textoCard">
-        <h4> Producto xyz</h4>
-        <h5>$60.00</h5>
-        <h6>Ver producto</h6>
-        </div>
-        
-        </div>
-
-        <div class="Card">
-            
-        <img src="./Images//SW4.png" alt="" class="Imagen">
-        <div class="textoCard">
-        <h4> Producto xyz</h4>
-        <h5>$60.00</h5>
-        <h6>Ver producto</h6>
-        </div>
-        
-        </div>
-
-        <div class="Card">
-            
-        <img src="./Images//SW5.png" alt="" class="Imagen">
-        <div class="textoCard">
-        <h4> Producto xyz</h4>
-        <h5>$60.00</h5>
-        <h6>Ver producto</h6>
-        </div>
-        
-        </div>
-
-        <div class="Card">
-            
-        <img src="./Images//SW1.png" alt="" class="Imagen">
-        <div class="textoCard">
-        <h4> Producto xyz</h4>
-        <h5>$60.00</h5>
-        <h6>Ver producto</h6>
-        </div>
-        
-        </div>
     </div>
     </div>
     </div>
@@ -183,7 +119,7 @@
         
                 <div class="Card">
                     
-                <img src="./Images//SW1.png" alt="" class="Imagen">
+                <img src="./Images//c6.png" alt="" class="Imagen">
                 <div class="textoCard">
                 <h4> Producto xyz</h4>
                 <h5>$60.00</h5>
@@ -262,7 +198,7 @@
                 
                         <div class="Card">
                             
-                        <img src="./Images//SW1.png" alt="" class="Imagen">
+                        <img src="./Images//D6.png" alt="" class="Imagen">
                         <div class="textoCard">
                         <h4> Producto xyz</h4>
                         <h5>$60.00</h5>
@@ -294,9 +230,11 @@
             <input type="text" name="Nombre" id="Nombre">
             <label for="Nombre"> Mensaje</label>
             <textarea name="Mensaje" id="Mensaje" cols="30" rows="10"></textarea>
-            <button class="Registro">Login</button>
+            <button class="Registro">Enviar</button>
         </div>
 
     </footer>
+    
 </body>
+<script type="module" src="./ControllersJS/productos.controller.js"></script>
 </html>
